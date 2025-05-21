@@ -1,0 +1,268 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\pages\\admin\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:pages\\admin\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\pages\\admin\\projects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:pages\\admin\\projects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\pages\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:pages\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\pages\\projects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:pages\\projects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\migrations\\20250520200549_sqlservermigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:migrations\\20250520200549_sqlservermigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\migrations\\portfoliodbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:migrations\\portfoliodbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\data\\portfoliodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:data\\portfoliodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|c:\\workspace\\portfoliopage\\portfolioapp\\models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C253CA6-B1DF-8EAF-1D00-CA2A441D7179}|PortfolioApp.csproj|solutionrelative:models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Projects.cshtml.cs",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Admin\\Projects.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\Projects.cshtml.cs",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Admin\\Projects.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin\\Projects.cshtml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T17:31:19.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Projects.cshtml",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Admin\\Projects.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\Projects.cshtml",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Admin\\Projects.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\Projects.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T17:31:13.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Projects.cshtml",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Projects.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Projects.cshtml",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Projects.cshtml",
+              "RelativeToolTip": "Pages\\Projects.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T17:27:54.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Projects.cshtml.cs",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Projects.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Projects.cshtml.cs",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Projects.cshtml.cs",
+              "RelativeToolTip": "Pages\\Projects.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T17:27:38.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T17:13:51.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-21T17:13:04.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T17:12:03.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250520200549_SqlServerMigration.cs",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Migrations\\20250520200549_SqlServerMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250520200549_SqlServerMigration.cs",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Migrations\\20250520200549_SqlServerMigration.cs",
+              "RelativeToolTip": "Migrations\\20250520200549_SqlServerMigration.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T20:06:23.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PortfolioDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Migrations\\PortfolioDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\PortfolioDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Migrations\\PortfolioDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\PortfolioDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T20:06:15.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "About.cs",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Models\\About.cs",
+              "RelativeDocumentMoniker": "Models\\About.cs",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Models\\About.cs",
+              "RelativeToolTip": "Models\\About.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:50:55.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:50:00.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Models\\Skill.cs",
+              "RelativeDocumentMoniker": "Models\\Skill.cs",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Models\\Skill.cs",
+              "RelativeToolTip": "Models\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:50:47.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PortfolioDbContext.cs",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Data\\PortfolioDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\PortfolioDbContext.cs",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Data\\PortfolioDbContext.cs",
+              "RelativeToolTip": "Data\\PortfolioDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:49:15.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:51:57.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Workspace\\Portfoliopage\\PortfolioApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T19:53:28.778Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
