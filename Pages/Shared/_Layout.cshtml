@@ -5,56 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - PortfolioApp</title>
     <script type="importmap"></script>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/PortfolioApp.styles.css" asp-append-version="true" />
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/app.css" asp-append-version="true" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
+
+    
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">PortfolioApp</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Admin/Projects">Projects Admin</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+<body class="bg-stone-100 text-[#7077A1] font-bold min-h-screen flex items-center justify-center lg:p-6">
+
+    <div class="bg-[#FDFAF6] w-full h-screen lg:max-w-[82rem] lg:h-[90vh] mx-auto shadow-lg rounded-3xl overflow-hidden flex flex-col border border-gray-200">
+        <!-- Navigation -->
+        <nav class="border-b border-gray-200 px-10 py-4 flex justify-around text-sm">
+            <a href="/" class="hover:underline">&Uuml;ber mich</a>
+            <span class="text-[#7077A1]">|</span>
+            <a href="/Projects" class="hover:underline">Projekte</a>
+            <span class="text-[#7077A1]">|</span>
+            <a href="#" class="hover:underline">Lebenslauf</a>
+            <span class="text-[#7077A1]">|</span>
+            <a href="/Admin/Projects" class="hover:underline">Admin</a>
         </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+
+        <!-- Scrollable Content -->
+        <main class="flex-1 overflow-y-auto px-10 my-4 py-4">
             @RenderBody()
         </main>
+
+        <footer class="border-b border-gray-200 px-10 py-4 flex justify-around  text-sm font-medium ">
+          
+            <a href="mailto:jekath27@gmail.com" class="hover:underline">Email</a>
+            <span class="text-[#7077A1]">|</span>
+
+            <a href="https://github.com/Jekathmenan" target="_blank" class="hover:underline">GitHub</a>
+            <span class="text-[#7077A1]">|</span>
+            <a href="https://www.linkedin.com/in/jekathmenan-selvarajah-waran-ba1808182/" target="_blank" class="hover:underline">LinkedIn</a>
+        
+        </footer>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - PortfolioApp - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
-    @await RenderSectionAsync("Scripts", required: false)
+    @RenderSection("Scripts", required: false)
 </body>
+
+
 </html>
