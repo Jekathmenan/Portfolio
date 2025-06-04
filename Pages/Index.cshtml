@@ -2,9 +2,29 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    var greeting = ViewData["Greeting"];
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="h-full flex items-center justify-center flex-col">
+    <div class="flex flex-col items-center justify-center ">
+        <span class="text-xl text-center">
+            @greeting
+        </span>
+        <div class="text-center pt-10 text-center">
+            <i class="text-3xl lni lni-scroll-down-2"></i>
+        </div>
+    </div>
+</div>
+
+<div class="flex mt-5 p-6 w-full bg-[#e3e0dc]">
+    <div class="grid grid-cols-2 divide-x text-center">
+        <p class="min-w-full border-none">
+            Hi, ich bin Jekathmenan Selvarajah – leidenschaftlicher Entwickler. Nach meinem Abschluss an der Informatikmittelschule Baden arbeite ich aktuell als Solution Engineer bei CS-Computing GmbH. Dort entwickle ich individuelle Anwendungen mit PHP, C#, SQL, WordPress und mehr.
+
+            Ich liebe es, Probleme mit Code zu lösen, neue Technologien auszuprobieren und meine <a class="text-blue-400" href="/projects">Projekte</a> stetig weiterzuentwickeln. In meiner Freizeit findet man mich oft auf meinem Motorrad, beim Lesen oder natürlich – beim Programmieren.
+        </p>
+        <span class="flex justify-center border-none items-center min-w-full">
+            <img src="/images/Foto Lebenslauf.jpeg" class="h-[220px]" alt="Alternate Text" />
+        </span>
+    </div>       
 </div>
