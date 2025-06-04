@@ -1,0 +1,10 @@
+﻿a {
+    color: #7077A1; /* rose-500 */
+    font-weight: 600 !important;
+    font-size: 1.10rem;
+    text-decoration: none !important;
+}
+
+    a:hover {
+        color: #2D3250; /* rose-600 */
+    }

@@ -62,7 +62,6 @@ namespace PortfolioApp.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("DemoUrl")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
@@ -74,7 +73,6 @@ namespace PortfolioApp.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("TechStack")
