@@ -3,4 +3,6 @@ portfolio.db
 portfolio.db-shm
 portfolio.db-wal
 usersettings.json
-appsettings.json
+bin/
+obj/
+node_modules/
