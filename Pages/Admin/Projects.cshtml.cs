@@ -10,9 +10,9 @@ namespace PortfolioApp.Pages.Admin
 {
     public class ProjectsModel : PageModel
     {
-        private readonly PortfolioDbContext _context;
+        private readonly PortfolioContext _context;
 
-        public ProjectsModel(PortfolioDbContext context)
+        public ProjectsModel(PortfolioContext context)
         {
             _context = context;
         }
@@ -29,11 +29,11 @@ namespace PortfolioApp.Pages.Admin
 
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
+            /*if (!ModelState.IsValid)
             {
                 Projects = await _context.Projects.ToListAsync();
                 return Page();
-            }
+            }*/
 
             _context.Projects.Add(NewProject);
             await _context.SaveChangesAsync();

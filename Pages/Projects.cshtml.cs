@@ -9,9 +9,9 @@ namespace PortfolioApp.Pages
 {
     public class ProjectsModel : PageModel
     {
-        private readonly PortfolioDbContext _context;
+        private readonly PortfolioContext _context;
 
-        public ProjectsModel(PortfolioDbContext context)
+        public ProjectsModel(PortfolioContext context)
         {
             _context = context;
         }
