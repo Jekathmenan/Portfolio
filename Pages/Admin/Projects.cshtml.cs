@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace PortfolioApp.Pages.Admin
 {
+    [Authorize]
     public class ProjectsModel : PageModel
     {
         private readonly PortfolioContext _context;
@@ -22,6 +24,7 @@ namespace PortfolioApp.Pages.Admin
 
         public List<Project> Projects { get; set; }
 
+        
         public async Task OnGetAsync()
         {
             Projects = await _context.Projects.ToListAsync();
