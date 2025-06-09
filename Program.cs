@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using PortfolioApp.Data;
 using PortfolioApp.Models;
+using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,31 +18,20 @@ if (File.Exists(userSettingsPath))
 }*/
 
 builder.Services.AddDbContext<PortfolioContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("PortfolioConnection"));
-});
+    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnection"),
+        new MySqlServerVersion(new Version(8, 0, 36)))); 
 
 builder.Services.AddTransient<IEmailSender, EmailSender>();
 
-// Fix for CS1061: Replace the problematic line with the correct method call
 IdentityBuilder identityBuilder = builder.Services.AddIdentity<User, IdentityRole>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
 }).AddEntityFrameworkStores<PortfolioContext>();
 
-/*builder.Services.AddIdentity<User, IdentityRole>(options =>
+builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.Password.RequireDigit = false;
-    options.Password.RequiredLength = 6;
-    options.Password.RequireLowercase = false;
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequireUppercase = false;
-    options.User.RequireUniqueEmail = true;
-    options.SignIn.RequireConfirmedAccount = false;
-    options.SignIn.RequireConfirmedEmail = false;
-    options.SignIn.RequireConfirmedPhoneNumber = false;
-}).AddEntityFrameworkStores<PortfolioContext>()
-  .AddDefaultTokenProviders();*/
+    options.LoginPath = "/Identity/Account/Login";
+});
 
 var app = builder.Build();
 
@@ -56,7 +46,6 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapStaticAssets();
