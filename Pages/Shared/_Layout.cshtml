@@ -21,8 +21,13 @@
             <a href="/Projects" class="hover:underline">Projekte</a>
             <span class="text-[#7077A1]">|</span>
             <a href="#" class="hover:underline">Lebenslauf</a>
-            <span class="text-[#7077A1]">|</span>
-            <a href="/Admin/Projects" class="hover:underline">Admin</a>
+
+            <!-- Only logged in Users should see the admin link -->
+            @if (User.Identity.IsAuthenticated)
+            {
+                <span class="text-[#7077A1]">|</span>
+                <a href="/Admin/Projects" class="hover:underline">Admin</a>
+            }
             <partial name="_LoginPartial" />
         </nav>
 
