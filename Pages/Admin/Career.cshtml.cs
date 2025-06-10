@@ -1,44 +1,40 @@
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using PortfolioApp.Data;
 using PortfolioApp.Models;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace PortfolioApp.Pages.Admin
 {
-    [Authorize]
-    public class ProjectsModel : PageModel
+    public class CareerModel : PageModel
     {
         private readonly PortfolioContext _context;
 
-        public ProjectsModel(PortfolioContext context)
+        public CareerModel(PortfolioContext context)
         {
             _context = context;
         }
 
         [BindProperty]
-        public Project NewProject { get; set; } = new Project();
+        public Career NewCareer { get; set; } = new Career();
 
-        public List<Project> Projects { get; set; }
+        public List<Career> Careers { get; set; }
 
-        
+
         public async Task OnGetAsync()
         {
-            Projects = await _context.Projects.ToListAsync();
+            Careers = await _context.Careers.ToListAsync();
         }
 
         public async Task<IActionResult> OnPostAsync()
         {
-            /*if (!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                Projects = await _context.Projects.ToListAsync();
+                Careers = await _context.Careers.ToListAsync();
                 return Page();
-            }*/
+            }
 
-            _context.Projects.Add(NewProject);
+            _context.Careers.Add(NewCareer);
             await _context.SaveChangesAsync();
 
             return RedirectToPage(); // Refresh

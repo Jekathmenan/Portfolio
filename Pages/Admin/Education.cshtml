@@ -1,0 +1,37 @@
+﻿@page
+@model PortfolioApp.Pages.Admin.EducationModel
+@{
+    ViewData["Title"] = "Admin - Karriereschritte";
+}
+
+<div class="max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-6 text-blue-700">Ausbildungsschritt einfügen</h1>
+
+    <form method="post" class="space-y-4 bg-white p-6 rounded shadow">
+        <div>
+            <label class="block text-sm font-medium text-gray-700">Name</label>
+            <input asp-for="NewEducation.Name" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" />
+            <span asp-validation-for="NewEducation.Name" class="text-red-500 text-sm"></span>
+        </div>
+
+        <div>
+            <label class="block text-sm font-medium text-gray-700">Zeitbereich</label>
+            <input asp-for="NewEducation.Period" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" />
+            <span asp-validation-for="NewEducation.Period" class="text-red-500 text-sm"></span>
+        </div>
+
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+            Ausbildungsschritt einfügen
+        </button>
+    </form>
+
+    <h2 class="text-2xl font-semibold mt-10 mb-4">Existing Projects</h2>
+    <ul class="space-y-3">
+        @foreach (var education in Model.Educations)
+        {
+            <li class="p-4 bg-gray-100 rounded shadow-sm">
+                <strong>@education.Name</strong> - <span class="text-sm text-gray-500">@education.Period</span>
+            </li>
+        }
+    </ul>
+</div>
