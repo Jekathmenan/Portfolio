@@ -10,6 +10,8 @@ namespace PortfolioApp.Data
         public DbSet<Project> Projects { get; set; }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Skill> Skills { get; set; }
+        public DbSet<Education> Educations { get; set; }
+        public DbSet<Career> Careers { get; set; }
 
         public PortfolioContext(DbContextOptions options) : base(options)
         {
