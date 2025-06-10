@@ -22,6 +22,7 @@ using PortfolioApp.Models;
 
 namespace PortfolioApp.Areas.Identity.Pages.Account
 {
+    [Authorize(Roles = "Admin")]
     public class RegisterModel : PageModel
     {
         private readonly SignInManager<User> _signInManager;
