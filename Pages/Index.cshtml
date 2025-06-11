@@ -16,7 +16,9 @@
     </div>
 </div>
 
-<div class="flex mt-5 p-6 w-full bg-[#e3e0dc]">
+<div class="flex flex-col justicy-center mt-5 p-6 w-full">
+    <h2 class="text-xl text-center">&Uuml;ber mich</h2>
+    <br />
     <div class="grid grid-cols-2 divide-x text-center">
         <p class="min-w-full border-none">
             Hi, ich bin Jekathmenan Selvarajah – leidenschaftlicher Entwickler. Nach meinem Abschluss an der Informatikmittelschule Baden arbeite ich aktuell als Solution Engineer bei CS-Computing GmbH. Dort entwickle ich individuelle Anwendungen mit PHP, C#, SQL, WordPress und mehr.
@@ -27,4 +29,36 @@
             <img src="/images/Foto Lebenslauf.jpeg" class="h-[220px]" alt="Alternate Text" />
         </span>
     </div>       
+</div>
+<div class="flex flex-col justicy-center mt-5 p-6 w-full">
+    <h2 class="text-xl text-center">Karriere</h2>
+    <br />
+    <br />
+    <ul class="space-y-3">
+        <!-- TODO: Sort by period -->
+        @foreach (var career in Model.careers)
+        {
+            <li class="p-4 bg-gray-100 text-center rounded shadow-sm">
+                <span class="text-sm text-gray-500">@career.Company</span>  - <span class="text-sm text-gray-500">@career.Address</span><br />
+                <strong>@career.Name</strong> <br />
+                <span class="text-sm text-gray-500">@career.Period</span> 
+            </li>
+        }
+    </ul>
+
+    <br />
+    <br />
+    <h2 class="mt-30 text-xl text-center">Ausbildung</h2>
+    <br />
+    <ul class="space-y-3">
+        <!-- TODO: Sort by period -->
+        @foreach (var education in Model.educations)
+        {
+            <li class="p-4 bg-gray-100 text-center rounded shadow-sm">
+                <span class="text-sm text-gray-500">@education.School</span>  - <span class="text-sm text-gray-500">@education.Location</span><br />
+                <strong>@education.Name</strong> <br />
+                <span class="text-sm text-gray-500">@education.Period</span>
+            </li>
+        }
+    </ul>
 </div>
