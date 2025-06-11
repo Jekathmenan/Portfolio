@@ -21,7 +21,7 @@
             <a href="/Projects" class="hover:underline">Projekte</a>
 
             <!-- Only logged in Users should see the admin link -->
-            @if (User.Identity.IsAuthenticated)
+            @if (User.Identity != null && User.Identity.IsAuthenticated)
             {
                 <span class="text-[#7077A1]">|</span>
                 <a href="/Admin/Overview" class="hover:underline">Admin</a>
