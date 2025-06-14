@@ -8,23 +8,24 @@
     <link rel="stylesheet" href="~/css/app.css" asp-append-version="true" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
-
     
 </head>
-<body class="bg-stone-100 text-[#7077A1] font-bold min-h-screen flex items-center justify-center lg:p-6">
+<body class="bg-[#e3d5ca] text-[#03045e] 03045e font-bold min-h-screen flex items-center justify-center lg:p-6">
 
-    <div class="bg-[#FDFAF6] w-full h-screen lg:max-w-[82rem] lg:h-[90vh] mx-auto shadow-lg rounded-3xl overflow-hidden flex flex-col border border-gray-200">
+    <div class="bg-[#f1faee] w-full h-screen lg:max-w-[82rem] lg:h-[90vh] mx-auto shadow-lg rounded-3xl overflow-hidden flex flex-col border border-gray-200">
         <!-- Navigation -->
+        @inject Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper Html
         <nav class="border-b border-gray-200 px-10 py-4 flex justify-around text-sm">
-            <a href="/" class="hover:underline">&Uuml;ber mich</a>
+            <a href="/" class="text-center hover:text-[#0096c7] w-lg hover:underline @(IsActive("/Index"))">&Uuml;ber mich</a>
+            
             <span class="text-[#7077A1]">|</span>
-            <a href="/Projects" class="hover:underline">Projekte</a>
-
+            <a href="/Projects" class="w-sm hover:text-[#0096c7] hover:underline @(IsActive("/Projects"))">Projekte</a>
+            
             <!-- Only logged in Users should see the admin link -->
             @if (User.Identity != null && User.Identity.IsAuthenticated)
             {
                 <span class="text-[#7077A1]">|</span>
-                <a href="/Admin/Overview" class="hover:underline">Admin</a>
+                <a href="/Admin/Overview" class="hover:text-[#0096c7] hover:underline @(IsActive("/Admin/Overview"))">Admin</a>
             }
             <partial name="_LoginPartial" />
         </nav>
@@ -36,12 +37,12 @@
 
         <footer class="border-b border-gray-200 px-10 py-4 flex justify-around  text-sm font-medium ">
           
-            <a href="mailto:jekath27@gmail.com" class="hover:underline">Email</a>
+            <a href="mailto:jekath27@gmail.com" class="hover:text-[#0096c7] hover:underline">Email</a>
             <span class="text-[#7077A1]">|</span>
 
-            <a href="https://github.com/Jekathmenan" target="_blank" class="hover:underline">GitHub</a>
+            <a href="https://github.com/Jekathmenan" target="_blank" class="hover:text-[#0096c7] hover:underline">GitHub</a>
             <span class="text-[#7077A1]">|</span>
-            <a href="https://www.linkedin.com/in/jekathmenan-selvarajah-waran-ba1808182/" target="_blank" class="hover:underline">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/jekathmenan-selvarajah-waran-ba1808182/" target="_blank" class="hover:text-[#0096c7] hover:underline">LinkedIn</a>
         
         </footer>
     </div>
