@@ -41,26 +41,28 @@
         <!-- TODO: Sort by period -->
         @foreach (var career in Model.careers)
         {
-            <li class="p-4 bg-gray-100 text-center rounded shadow-sm">
-                <span class="text-sm text-gray-500">@career.Company</span>  - <span class="text-sm text-gray-500">@career.Address</span><br />
-                <strong>@career.Name</strong> <br />
-                <span class="text-sm text-gray-500">@career.Period</span> 
+            <li class="p-4 text-center">
+                <span class="text">@career.Company</span>  - <span class="text-sm">@career.Address</span><br />
+                -<br />
+                @career.Name <br />
+                <span class="text">@career.Period</span> 
             </li>
         }
     </ul>
 
-    <br />
-    <br />
-    <h2 class="mt-30 text-xl text-center">Ausbildung</h2>
-    <br />
+    <h2 class="mb-8 mt-[85px] text-xl text-center">Ausbildung</h2>
+    
     <ul class="space-y-3">
         <!-- TODO: Sort by period -->
         @foreach (var education in Model.educations)
         {
-            <li class="p-4 bg-gray-100 text-center rounded shadow-sm">
-                <span class="text-sm text-gray-500">@education.School</span>  - <span class="text-sm text-gray-500">@education.Location</span><br />
-                <strong>@education.Name</strong> <br />
-                <span class="text-sm text-gray-500">@education.Period</span>
+            <li class="p-4 text-center">
+                <span class="text">@education.School</span>  - <span class="text-sm">@education.Location</span><br />
+                -<br />
+                @education.Name <br />
+                <span>@education.Abschluss</span> <br />
+                <span class="text">@education.Period</span>
+                
             </li>
         }
     </ul>
