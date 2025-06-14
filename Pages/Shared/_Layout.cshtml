@@ -47,6 +47,19 @@
     </div>
 
     @RenderSection("Scripts", required: false)
+    @functions {
+        public string IsActive(string page)
+        {
+            var currentPage = ViewContext.RouteData.Values["page"]?.ToString() ?? "/Index";
+
+            if (string.Equals(currentPage, "/", StringComparison.OrdinalIgnoreCase))
+            {
+                currentPage = "/Index"; // normalize root to /Index
+            }
+
+            return string.Equals(page, currentPage, StringComparison.OrdinalIgnoreCase) ? "text-[#03045e] border-b-4 hover:border-[#0096c7] border-[#03045e] font-bold" : "";
+        }
+    }
 </body>
 
 
