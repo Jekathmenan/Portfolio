@@ -1,11 +1,11 @@
 ﻿@page
 @model PortfolioApp.Pages.Admin.EducationModel
 @{
-    ViewData["Title"] = "Admin - Karriereschritte";
+    ViewData["Title"] = "Admin - Ausbildungsschritte";
 }
 
 <div class="max-w-4xl mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold mb-6 text-blue-700">Ausbildungsschritt einfügen</h1>
+    <h1 class="text-xl font-bold mb-6">Ausbildungsschritt einfügen</h1>
 
     <form method="post" class="space-y-4 bg-white p-6 rounded shadow">
         <div>
@@ -40,7 +40,7 @@
         </button>
     </form>
 
-    <h2 class="text-2xl font-semibold mt-10 mb-4">Vorhande Ausbildungsschritte</h2>
+    <h2 class="text-xl font-semibold mt-10 mb-4">Vorhande Ausbildungsschritte</h2>
     <ul class="space-y-3">
         @foreach (var education in Model.Educations)
         {
