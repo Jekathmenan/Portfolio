@@ -19,7 +19,7 @@
 <div class="flex flex-col justicy-center mt-5 p-6 w-full">
     <h2 class="text-xl text-center">&Uuml;ber mich</h2>
     <br />
-    <div class="flex flex-col md:flex-row text-center md:text-left">
+    <div class="flex flex-col md:flex-row text-center md:text-left border-2 border-solid rounded-lg">
         <div class="flex w-full justify-center items-center p-4">
             <img src="/images/Foto Lebenslauf.jpeg" class=" h-[220px]" alt="Alternate Text" />
         </div>
@@ -36,13 +36,12 @@
 <div class="flex flex-col justicy-center mt-5 p-6 w-full">
     <h2 class="text-xl text-center">Karriere</h2>
     <br />
-    <br />
     <ul class="space-y-3">
         <!-- TODO: Sort by period -->
         @foreach (var career in Model.careers)
         {
-            <li class="p-4 text-center">
-                <span class="text">@career.Company</span>  - <span class="text-sm">@career.Address</span><br />
+            <li class="p-4 my-2 text-center border-2 border-solid rounded-lg">
+                <span class="text">@career.Company</span>  - <span class="text">@career.Address</span><br />
                 -<br />
                 @career.Name <br />
                 <span class="text">@career.Period</span> 
@@ -56,13 +55,12 @@
         <!-- TODO: Sort by period -->
         @foreach (var education in Model.educations)
         {
-            <li class="p-4 text-center">
-                <span class="text">@education.School</span>  - <span class="text-sm">@education.Location</span><br />
+            <li class="p-4 my-2 text-center border-2 border-solid rounded-lg rounded-lg">
+                <span class="text">@education.School</span>  - <span class="text">@education.Location</span><br />
                 -<br />
                 @education.Name <br />
                 <span>@education.Abschluss</span> <br />
                 <span class="text">@education.Period</span>
-                
             </li>
         }
     </ul>
